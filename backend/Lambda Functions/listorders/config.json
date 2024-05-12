@@ -1,0 +1,6 @@
+{
+    "host": "someoneneedsthat.cpc0smwggpsx.us-east-1.rds.amazonaws.com",
+    "user": "admin",
+    "password": "someoneneedsthatdb",
+    "database": "info"
+}

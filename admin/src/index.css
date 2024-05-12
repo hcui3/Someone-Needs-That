@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+.font-abhaya-libre {
+  font-family: "Abhaya Libre", serif;
+}
+.font-fira-sans {
+  font-family: "Fira Sans", sans-serif;
+}
