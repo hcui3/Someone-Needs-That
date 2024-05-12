@@ -45,7 +45,7 @@ const Username = () => {
     const payload = JSON.stringify({ userId, newUsername, username });
 
     try {
-      const response = await fetch("https://r9kn1o6u62.execute-api.us-east-1.amazonaws.com/Stage/updateusername", {
+      const response = await fetch("https://3zv038w5s4.execute-api.us-east-1.amazonaws.com/Stage/updateusername", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

@@ -37,7 +37,7 @@ const Profile = () => {
       const payload = JSON.stringify({ userId: userId });
 
       try {
-        const response = await fetch("https://r9kn1o6u62.execute-api.us-east-1.amazonaws.com/Stage/removeuser", {
+        const response = await fetch("https://3zv038w5s4.execute-api.us-east-1.amazonaws.com/Stage/removeuser", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",

@@ -54,7 +54,7 @@ const Password = () => {
     const payload = JSON.stringify({ userId, currentPassword, newPassword });
 
     try {
-      const response = await fetch("https://r9kn1o6u62.execute-api.us-east-1.amazonaws.com/Stage/updatepassword", {
+      const response = await fetch("https://3zv038w5s4.execute-api.us-east-1.amazonaws.com/Stage/updatepassword", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

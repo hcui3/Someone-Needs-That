@@ -1,7 +1,0 @@
-{
-  "host": "someoneneedsthat.cpc0smwggpsx.us-east-1.rds.amazonaws.com",
-  "user": "admin",
-  "password": "someoneneedsthatdb",
-  "database": "info",
-  "stripe_key": "sk_test_51OsR8rCjjiFo094wRfATDG04xLKjvAVvTlltY6rnfzhoyaE5dvbqTKw8zIBSzZgbEOtHq4H4bDou5Rw6T333qano00v6bQVaCJ"
-}

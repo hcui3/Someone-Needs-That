@@ -20,7 +20,7 @@ const ShopContextProvider = (props) => {
 
   const listItems = async () => {
     try {
-      const response = await fetch("https://r9kn1o6u62.execute-api.us-east-1.amazonaws.com/Stage/listitems");
+      const response = await fetch("https://3zv038w5s4.execute-api.us-east-1.amazonaws.com/Stage/listitems");
 
       const responseData = await response.json();
       const responseBody = JSON.parse(responseData.body);
@@ -71,7 +71,7 @@ const ShopContextProvider = (props) => {
     const payload = JSON.stringify({ userId });
 
     try {
-      const response = await fetch("https://r9kn1o6u62.execute-api.us-east-1.amazonaws.com/Stage/listwishitems", {
+      const response = await fetch("https://3zv038w5s4.execute-api.us-east-1.amazonaws.com/Stage/listwishitems", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -107,7 +107,7 @@ const ShopContextProvider = (props) => {
     const payload = JSON.stringify({ userId });
 
     try {
-      const response = await fetch("https://r9kn1o6u62.execute-api.us-east-1.amazonaws.com/Stage/listorders", {
+      const response = await fetch("https://3zv038w5s4.execute-api.us-east-1.amazonaws.com/Stage/listorders", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -153,7 +153,7 @@ const ShopContextProvider = (props) => {
     const payload = JSON.stringify({ userId, itemId });
 
     try {
-      const response = await fetch("https://r9kn1o6u62.execute-api.us-east-1.amazonaws.com/Stage/postwishitem", {
+      const response = await fetch("https://3zv038w5s4.execute-api.us-east-1.amazonaws.com/Stage/postwishitem", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

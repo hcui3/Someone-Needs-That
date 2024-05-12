@@ -36,7 +36,7 @@ const MessageBoard = ({ product }) => {
     const payload = JSON.stringify({ itemId, userId, content, userName });
 
     try {
-      const response = await fetch("https://r9kn1o6u62.execute-api.us-east-1.amazonaws.com/Stage/postmessage", {
+      const response = await fetch("https://3zv038w5s4.execute-api.us-east-1.amazonaws.com/Stage/postmessage", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -63,7 +63,7 @@ const MessageBoard = ({ product }) => {
     const payload = JSON.stringify({ itemId });
 
     try {
-      const response = await fetch("https://r9kn1o6u62.execute-api.us-east-1.amazonaws.com/Stage/listmessages", {
+      const response = await fetch("https://3zv038w5s4.execute-api.us-east-1.amazonaws.com/Stage/listmessages", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

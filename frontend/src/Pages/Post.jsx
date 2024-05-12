@@ -165,7 +165,7 @@ const Post = () => {
     const payload = JSON.stringify({ name, description, category, price, userId, image });
 
     try {
-      const response = await fetch("https://r9kn1o6u62.execute-api.us-east-1.amazonaws.com/Stage/postitem", {
+      const response = await fetch("https://3zv038w5s4.execute-api.us-east-1.amazonaws.com/Stage/postitem", {
         method: "POST",
         body: payload,
         headers: {
